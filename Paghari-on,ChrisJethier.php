@@ -57,7 +57,7 @@ echo "Age: " . $person->getAge() . "\n";
 $person->setAge(25);
 $person->displayAge();
 
-$car = new Car('Mercedes-Benz', 'McLaren 999 Red Gold Dream', '(2009)');
+$car = new Car('Mercedes-Benz', ', McLaren 999 Red Gold Dream', '(2009)');
 
 
 echo "Car Info: " . $car->getCarInfo() . "\n";
